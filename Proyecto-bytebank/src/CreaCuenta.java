@@ -10,5 +10,9 @@ public class CreaCuenta {
 //		primeraCuenta.nombre = "Fulanite something something";
 
 		System.out.println(primeraCuenta.saldo);
+		Cuenta segundaCuenta = primeraCuenta;
+		segundaCuenta.saldo = 200;
+		System.out.println(primeraCuenta.saldo);
+
 	}
 }
