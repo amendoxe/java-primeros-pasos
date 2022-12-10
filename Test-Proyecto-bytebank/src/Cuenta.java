@@ -5,6 +5,8 @@ public class Cuenta {
 	int sucursal;
 	int numero;
 	String nombre;
+	TestCliente clienteData;
+	TestDireccion clienteDir;
 
 	void depositaDinero(double valor) {
 		saldo += valor;
