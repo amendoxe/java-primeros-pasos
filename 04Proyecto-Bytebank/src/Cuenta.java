@@ -5,6 +5,21 @@ public class Cuenta {
 	private int numero;
 	private Cliente titular; // supongo que funciona con cualquier nombre
 
+	private static int total = 0;
+
+	public Cuenta(int agencia, int numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+		this.saldo = 100;
+		System.out.println("Creando una cuenta");
+		Cuenta.total++;
+
+	}
+
+	public static int getTotal() {
+		return Cuenta.total;
+	}
+
 	public Cliente getTitular() {
 		return this.titular;
 	}
