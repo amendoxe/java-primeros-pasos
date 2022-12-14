@@ -12,6 +12,10 @@ public class Gerente extends Funcionario {
 	}
 
 	public boolean iniciaSesion(String clave) {
-		return clave == "AluraCursosOnline";
+		return this.clave == clave;
+	}
+
+	public double getBonificacion() {
+		return super.getSalario();
 	}
 }
