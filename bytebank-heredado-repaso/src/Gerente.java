@@ -9,4 +9,8 @@ public class Gerente extends Empleado {
 	public boolean iniciaSesion(String clave) {
 		return this.clave == clave;
 	}
+
+	public double getBonificacion() {
+		return super.getBonificacion() + getSalario();
+	}
 }

@@ -7,7 +7,7 @@ public class TestGerente {
 		gerente.setClave("THisSomePAss");
 		gerente.setSalario(6000);
 
-		System.out.println(gerente.getBonificacion());
+		System.out.println("bonificación del gerente: " + gerente.getBonificacion());
 		System.out.println(gerente.iniciaSesion("THisSomePAss"));
 	}
 }
