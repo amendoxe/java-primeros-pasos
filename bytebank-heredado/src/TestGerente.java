@@ -9,10 +9,9 @@ public class TestGerente {
 
 		gerente.setClave("AluraCursosOnline");
 		System.out.println("Clave corrrecta: " + gerente.iniciaSesion("AluraCursosOnline"));
+// Test de polimorfismo?
 
-//		Funcionario funcionario = new Funcionario();
-//		funcionario.setTipo(1);
-//		funcionario.setSalario(6000);
-//		System.out.println("bonificación: " + funcionario.getBonificacion());
+		Funcionario funcionario = new Gerente();
+		funcionario.setNombre("Jimena");
 	}
 }
