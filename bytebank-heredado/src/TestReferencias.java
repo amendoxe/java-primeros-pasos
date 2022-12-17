@@ -1,8 +1,7 @@
 
 public class TestReferencias {
 	public static void main(String[] args) {
-		Funcionario funcionario = new Funcionario();
-		funcionario.setSalario(1000);
+//		funcionario.setSalario(1000);
 		Gerente gerente = new Gerente();
 		gerente.setSalario(1000);
 		EditorVideo editorVideo = new EditorVideo();
@@ -10,7 +9,7 @@ public class TestReferencias {
 		Designer designer = new Designer();
 		designer.setSalario(1000);
 		ControleBonificacion controle = new ControleBonificacion();
-		controle.registrar(funcionario);
+//		controle.registrar(funcionario);
 		controle.registrar(gerente);
 		controle.registrar(editorVideo);
 		controle.registrar(designer);

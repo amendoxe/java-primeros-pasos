@@ -8,5 +8,16 @@ public class TestCuentas {
 		cc.transfiere(1000, ca);
 		System.out.println("cc: " + cc.getSaldo());
 		System.out.println("ca: " + ca.getSaldo());
+		System.out.println("depósitos");
+
+		ca.deposita(10);
+		System.out.println("ca: " + ca.getSaldo());
+		cc.deposita(11);
+		System.out.println("cc: " + cc.getSaldo());
+		ca.deposita(10);
+		System.out.println("ca: " + ca.getSaldo());
+		ca.deposita(10);
+		System.out.println("ca: " + ca.getSaldo());
+
 	}
 }
